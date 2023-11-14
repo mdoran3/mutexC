@@ -5,8 +5,9 @@ This small program demonstrates the use of a mutex in C. What is a mutex? When r
 This program uses a linked list as the global data to be manipulated. Multithreading is supported vis pthread.h. 
 
 How to run this program:
--Compile command:  gcc mutex.c -o mutex
--Run: ./mutex
+
+1)  Compile command:  gcc mutex.c -o mutex
+2)  Run: ./mutex
 
 Testing:
 If you would like to play with the code to see how mutexing ensures that no operations are lost try the follwoing:
