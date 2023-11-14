@@ -13,4 +13,4 @@ If you would like to play with the code to see how mutexing ensures that no oper
 
 1) On line 12, try changing that NUM_THREADS variable to any number you choose and run the code (the higher the better). The print statement, Node Count, should match this number.
 
-2) Now try commenting out lines 50 and 53 and running the code again. Lines 51 and 52 are crucial operations for ensuring the linked list head is updated properly. Without the mutex, you will notice that whatever number you choose for NUM_THREADS will more than likely not be returned in the Node Count print statement. 
+2) Now try commenting out lines 50 and 53 (yes, under the annoyingly large MUTEX ascii art) and running the code again. Lines 51 and 52 are crucial operations for ensuring the linked list head is updated properly. Without the mutex, you will notice that whatever number you choose for NUM_THREADS will more than likely not be returned in the Node Count print statement. 
